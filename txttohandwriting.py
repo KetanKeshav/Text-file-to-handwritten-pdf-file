@@ -33,7 +33,7 @@ def letterwrite(word):
             writee(letter)
 
 
-def worddd(Input):
+def worrd(Input):
     wordlist = Input.split(' ')
     for i in wordlist:
         letterwrite(i)
@@ -54,7 +54,7 @@ if __name__ == '__main__':
         p = [data[i:i + chunk_size] for i in range(0, chunks, chunk_size)]
 
         for i in range(0, len(p)):
-            worddd(p[i])
+            worrd(p[i])
             writee('\n')
             BG.save('%doutt.png' % i)
             BG1 = Image.open("myfont/bg.png")
